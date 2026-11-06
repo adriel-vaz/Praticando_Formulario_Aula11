@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dead Redemption 2 - Gangue Van der Linde</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #121212; color: #f4f4f4; }
+        .card { background-color: #1e1e1e; color: #fff; border: 1px solid #dc3545; }
+        .navbar { background-color: #000; border-bottom: 2px solid #dc3545; }
+    </style>
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold fs-3" href="index.html">RDR2 - BANDO</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="index.html">Início</a>
+                <a class="nav-link" href="equipamentos.html">Arsenais & Cavalos</a>
+                <a class="nav-link" href="cadastro.html">Alistamento</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Alerta Bootstrap -->
+        <div class="alert alert-danger alert-dismissible fade show text-center fw-bold" role="alert">
+            ATENÇÃO: A lei de Pinkerton está no nosso encalço! Mantenha a discrição no acampamento.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Cabeçalho -->
+        <div class="row my-4 text-center">
+            <div class="col-12">
+                <h1 class="text-danger display-4 fw-bold">GANGUE VAN DER LINDE</h1>
+                <p class="lead text-secondary">Procurados em 5 estados por assaltos a banco, roubo de comboios e resistência à autoridade.</p>
+            </div>
+        </div>
+
+        <!-- Grid System com Cards de Integrantes -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="img/ArhurMorgan.jpg" class="card-img-top" alt="Arthur Morgan">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Arthur Morgan <span class="badge bg-danger">Braço Direito</span></h5>
+                        <p class="card-text text-light">Atirador veterano e o homem de confiança de Dutch. Perito em sobrevivência e combate de proximidade.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="img/DutchVanDerLinde.webp" class="card-img-top" alt="Dutch van der Linde">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Dutch van der Linde <span class="badge bg-danger">Líder</span></h5>
+                        <p class="card-text text-light">O carismático fundador do bando. Acredita na liberdade individual contra a modernização da sociedade.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <img src="img/JohnMarston.jpg" class="card-img-top" alt="John Marston">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">John Marston <span class="badge bg-secondary">Gatilho Rápido</span></h5>
+                        <p class="card-text text-light">Criado por Dutch desde a infância, é um perigoso fora-da-lei à procura do seu próprio caminho.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
